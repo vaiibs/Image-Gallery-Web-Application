@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between">
+            <h2>Image Gallery</h2>
+            <a href="{{ url_for('upload') }}" class="btn btn-primary">Upload Image</a>
+        </div>
+        <div class="row mt-4">
+            {% for image in images %}
+            <div class="col-md-4">
+                <div class="card mt-3">
+                    <img src="{{ image.thumbnail_path }}" class="card-img-top" alt="Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ image.creator_name }}</h5>
+                        <p class="card-text">{{ image.caption }}</p>
+                        <a href="{{ url_for('download', image_id=image.id) }}" class="btn btn-success">Download</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
