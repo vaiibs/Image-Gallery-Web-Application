@@ -1,6 +1,6 @@
 # Image Gallery Web Application
 
-This is a simple image gallery web application built using Flask and SQLAlchemy.Users can upload images, view thumbnails, and download images with a limit on how many images can be downloaded within a 24-hour period. 
+This is a image gallery web application built using Flask and SQLAlchemy.Users can upload images, view thumbnails, and download images with a limit on how many images can be downloaded within a 24-hour period. 
 
 # Features:
 
