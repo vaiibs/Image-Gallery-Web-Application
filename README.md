@@ -16,6 +16,7 @@ Download: Add a download button for each image.
 
 Download Limit: Restrict users to 2 downloads within 24 hours.
 
-![image](https://github.com/user-attachments/assets/26670332-d02a-4a98-a224-c303a0078b5a)
 
-![image](https://github.com/user-attachments/assets/6b32325f-180f-4c49-9d36-aacb2a38d195)
+![image](https://github.com/user-attachments/assets/ad2cfe39-0a6e-4d45-9663-0b281e0d1813)
+
+![image](https://github.com/user-attachments/assets/cc4cb3eb-70c8-435e-b9b3-c13f47456c34)
