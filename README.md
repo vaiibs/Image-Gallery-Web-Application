@@ -2,7 +2,7 @@
 
 This is a simple image gallery web application built using Flask and SQLAlchemy.Users can upload images, view thumbnails, and download images with a limit on how many images can be downloaded within a 24-hour period. 
 
-Features:
+# Features:
 
 Flask App: Build a responsive image upload system using python(flask).
 
